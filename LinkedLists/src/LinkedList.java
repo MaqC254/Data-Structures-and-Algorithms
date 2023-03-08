@@ -88,6 +88,8 @@ public class LinkedList {
         int index = 0;
         var check = first;
         while (item != check.value) {
+            if(check == last)
+                break;
             check = check.next;
             index++;
         }
