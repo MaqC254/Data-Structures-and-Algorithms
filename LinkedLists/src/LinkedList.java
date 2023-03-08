@@ -25,10 +25,6 @@ public class LinkedList {
     private Node first;
     private Node last;
 
-    //    public int peek() {
-//        return first.next.value;
-//       return last.value;
-    //}
     public void addFirst(int item) {
         var node = new Node(item);
         if (isEmpty()) {
@@ -108,6 +104,7 @@ public class LinkedList {
         }
     }
 }
+//The following are implemented
 //addFirst
 //addLast
 //deleteFirst
